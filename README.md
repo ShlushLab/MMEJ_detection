@@ -45,10 +45,10 @@ The following columns are required:
 
 
 The output_file_name is a csv file containing the input columns together with the following output columns: 
-MH - the sequence of the microhomology (if detected)
-Mismatch amount - the number of mismatches that were identified inside the microhomology
-MH_len - the length of the microhomology (if detected)
-Del_len - the deletion’s length
+- MH - the sequence of the microhomology (if detected)
+- Mismatch amount - the number of mismatches that were identified inside the microhomology
+- MH_len - the length of the microhomology (if detected)
+- Del_len - the deletion’s length
 
 
 WITH_MISMATCH flag indicates whether to allow single bp mismatch inside the microhomology. Values are 0 (default) for not allowing and 1 for allowing mismatch.  
